@@ -2,7 +2,7 @@
 $(function() {
 	var $h4 = $('h4');
 	$('ul').hide();
-	$h4.append('<a class="show">show</a>');
+	$h4.append('<button class="show">show</button>');
 	
 	$h4.on('click', function() {
 		$h4.next()
