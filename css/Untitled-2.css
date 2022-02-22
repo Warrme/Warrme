@@ -20,12 +20,7 @@ h2 {
 	padding-top: 0px;
 }
 
-.home {
-}
-.about {
-}
-.contact {
-}
+
 #jQuery {
 	padding-left: 0px;
 	margin-left: -23px;
@@ -33,4 +28,41 @@ h2 {
 body ul {
 	margin-left: 0px;
 	text-align: center;
+}
+button {
+	width: 100px;
+	border-color: #000000;
+	background-color: #A7EDDF;
+	min-width: 100px;
+	max-width: 100px;
+	height: 25px;
+	min-height: 25px;
+	max-height: 25px;
+}
+
+a {
+	text-decoration: none;
+	width: 100px;
+	min-height: 100px;
+	min-width: 100px;
+	height: 25px;
+	max-width: 25px;
+	max-height: 25px;
+	color: #000000;
+}
+
+.accordion-panel {
+	display: none;
+	margin-right: 0px;
+	text-align: left;
+	margin-left: 300px;
+}
+
+
+.accordion-control {
+	width: 300px;
+	min-width: 300px;
+	max-width: 300px;
+	margin-right: 40px;
+	margin-bottom: 1px;
 }
