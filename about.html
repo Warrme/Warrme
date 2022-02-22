@@ -19,11 +19,11 @@
 	
 <h2>
 	<p style="text-align: center">
-	&nbsp; <a href="index.html">Home</a> &nbsp; 
+	<button href="index.html"><a href = "index.html">Home</a></button> &nbsp; 
 
-	<a href="about.html">About</a> &nbsp;
+	<button href="about.html"><a href = "about.html">About</a></button> &nbsp;
 
-	<a href="contact.html">Contact</a>
+	<button href="contact.html"><a href = "contact.html">Contact</a></button>
 </p>
 </h2>
 
@@ -35,10 +35,26 @@ But for you it's  <em id="freePrice"></em>
 <br>
 <em id="offerEnds"></em>
 <br>
+<ul class ="accordion">
+	<li>
+		<button class ="accordion-control">Tacos</button>
+		<div class ="accordion-panel">We have beef, chicken, and bean tacos.</div>
+	</li>
+	<li>
+		<button class ="accordion-control">Burritos</button>
+		<div class ="accordion-panel">We have beef, chicken, and bean burritos.</div>
+	</li>
+	<li>
+		<button class ="accordion-control">Chimichangas</button>
+		<div class ="accordion-panel">We have pork and chicken chimichangas.</div>
+	</li>
+	</ul>
 <div> We will send it to your location at </div>
 <em id="userLocation"></em>
 
 <script src ="js/geolocation.js"></script>
-<script src="js/about.js"></script>	
+<script src="js/about.js"></script>
+<script src ="js/jquery-3.6.0.min.js"></script>
+<script src ="js/accordion.js"></script>	
 </body>
 </html>
