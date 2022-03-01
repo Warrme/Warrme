@@ -78,12 +78,16 @@ a {
 	background-color: #FFFFFF;
 	border-radius: 3px;
 	margin-left: 0px;
+	text-align: left;
 }
 td {
 	background-color: #D9E4EA;
 	padding-left: 0px;
 	padding-right: 50px;
+	text-align: left;
 }
 .tableheader:hover {
 	background-color: #A289E9;	
+}
+td {
 }
